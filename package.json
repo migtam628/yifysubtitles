@@ -1,42 +1,57 @@
 {
-  "name": "yifysubtitles",
-  "version": "2.1.5",
-  "description": "A simple wrapper to download subtitles from the yifysubtitles website.",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mrdotb/yifysubtitles"
+  "_from": "yifysubtitles",
+  "_id": "yifysubtitles@2.1.5",
+  "_inBundle": false,
+  "_integrity": "sha512-bNE+yfcY0nBhIrFDsIST3fybRh2J+2uN4E0HYU/eyn4m+XDQgD5vINgmGxNNHWNH8hgPbDMO7F4hEs/fNcr5RA==",
+  "_location": "/yifysubtitles",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "yifysubtitles",
+    "name": "yifysubtitles",
+    "escapedName": "yifysubtitles",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/yifysubtitles/-/yifysubtitles-2.1.5.tgz",
+  "_shasum": "bb151a067b36e3f031ad65da134d246f03a397a0",
+  "_spec": "yifysubtitles",
+  "_where": "/Users/migtamrod/_Workspace/subtitles-function-source",
   "author": {
     "name": "mrdotb",
     "email": "mrdotb@protonmail.com"
-  },
-  "main": "index.js",
-  "scripts": {
-    "test": "ava",
-    "lint": "xo --fix"
   },
   "ava": {
     "files": "test/*.js",
     "verbose": "true"
   },
-  "xo": {
-    "space": true
+  "bugs": {
+    "url": "https://github.com/mrdotb/yifysubtitles/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "global": "^4.3.2",
-    "got": "^9.2.0",
-    "p-map": "^1.2.0",
-    "srt-to-vtt": "^1.1.3",
-    "streamz": "^1.8.5",
-    "unzipper": "^0.9.3"
+    "cheerio": "1.0.0-rc.3",
+    "global": "4.4.0",
+    "got": "11.5.1",
+    "p-map": "4.0.0",
+    "srt-to-vtt": "1.1.3",
+    "streamz": "1.8.10",
+    "unzipper": "0.10.11"
   },
+  "deprecated": false,
+  "description": "A simple wrapper to download subtitles from the yifysubtitles website.",
   "devDependencies": {
-    "ava": "^0.25.0",
-    "xo": "^0.24.0",
-    "pify": "^4.0.0"
+    "ava": "3.11.1",
+    "pify": "^5.0.0",
+    "xo": "0.32.1"
   },
+  "homepage": "https://github.com/mrdotb/yifysubtitles#readme",
   "keywords": [
     "download",
     "html5",
@@ -54,5 +69,20 @@
     "yts",
     "ytssubs",
     "zip"
-  ]
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "yifysubtitles",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrdotb/yifysubtitles.git"
+  },
+  "scripts": {
+    "lint": "xo --fix",
+    "test": "ava"
+  },
+  "version": "2.1.5",
+  "xo": {
+    "space": true
+  }
 }
